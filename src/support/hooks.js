@@ -28,7 +28,7 @@ Before(function (scenario) {
 
 
 Before({ timeout: 20000 }, async function () {
-	// Increase timeout to 20 seconds
+	// Increase timeout to 20 second
 	const videoDir = path.resolve(__dirname, './videos'); // Directory to store recorded videos
 	if (!fs.existsSync(videoDir)) {
 		fs.mkdirSync(videoDir, { recursive: true });

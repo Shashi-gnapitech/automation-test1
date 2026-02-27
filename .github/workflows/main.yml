@@ -82,3 +82,4 @@ jobs:
                   echo "Commit Message: ${{ github.event.inputs.commit_message }}"
                   echo "Commit Author: ${{ github.event.inputs.commit_author }}"
                   echo "Commit Hash: ${{ github.event.inputs.commit_hash }}"
+  
